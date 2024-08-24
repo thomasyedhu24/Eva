@@ -6,18 +6,18 @@ from logging.handlers import RotatingFileHandler
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "15529802"))
+API_HASH = os.environ.get("API_HASH", "92bcb6aa798a6f1feadbc917fccb54d3")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "821215952"))
 DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_NAME = os.environ.get("DB_NAME", "XFLIX")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002162795137"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001542373688"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001804728701"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
@@ -30,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075").split()):
+    for x in (os.environ.get("ADMINS", "5829753916 821215952").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
