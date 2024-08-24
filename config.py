@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7409495927:AAGsA86SLQ7D0-W5fzJhM8MJLQHoZX9UeYE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7409495927:AAFbt-n3H_KTDFfjy2HKpLXEoY3uHq6rSxU")
 API_ID = int(os.environ.get("API_ID", "15529802"))
 API_HASH = os.environ.get("API_HASH", "92bcb6aa798a6f1feadbc917fccb54d3")
 
@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "XFLIX")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002162795137"))
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001542373688"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001804728701"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002105815265"))
