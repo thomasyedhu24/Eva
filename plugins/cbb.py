@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>★ My Name :</b> <a href='https://t.me/FileStoreXeon2Bot'>Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ</a> \n<b>★ Language :</b> <a href='https://python.org'>Python 3</a> \n<b>★ Library :</b> <a href='https://pyrogram.org'>Pyrogram {version}</a> \n<b>★ Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>★ Channel :</b> <a href='https://t.me/XFlixAdult'>XFlixAdult</a> \n<b>★ Developer :</b> <a href='tg://user?id={OWNER_ID}'>MrXeon</a>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ᴍɪᴋᴇʏ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/CodeFlix_Bots'>ᴄᴏᴅᴇғʟɪx ʙᴏᴛs</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Team_Netflix'>ᴛᴇᴀᴍ ɴᴇᴛғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/otakuflix_network'>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/weebzonex'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
