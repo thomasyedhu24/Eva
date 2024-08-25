@@ -55,7 +55,6 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Please Double Check The FORCE_SUB_CHANNEL2 Value And Make Sure Bot Is Admin In Channel With Invite Users Via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL2}")
                 self.LOGGER(__name__).info("\nBot Stopped. https://t.me/MadflixBots_Support For Support")
                 sys.exit()
-
         if FORCE_SUB_CHANNEL3:
             try:
                 link = (await self.get_chat(FORCE_SUB_CHANNEL3)).invite_link
@@ -69,7 +68,6 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Please Double Check The FORCE_SUB_CHANNEL3 Value And Make Sure Bot Is Admin In Channel With Invite Users Via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL3}")
                 self.LOGGER(__name__).info("\nBot Stopped. https://t.me/MadflixBots_Support For Support")
                 sys.exit()
-       
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
